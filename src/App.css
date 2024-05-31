@@ -1,0 +1,54 @@
+.contenitore {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+}
+
+.righe {
+  margin-top: 20px;
+}
+
+.movimenti {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movimenti li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.movimenti li:last-child {
+  border-bottom: none;
+}
+
+.somma {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.summary p {
+  margin: 5px 0;
+}
